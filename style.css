@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+}
+.container .nest {
+  position: sticky;
+  top: 0;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-image: url(./f92cd6e4c9934fde980c7e9c7fbddbf2.jpg);
+  background-size: cover;
+}
+
+.navbar {
+  background-color: #0079ff;
+}
+.navbar .son1 {
+  border: none;
+  background: transparent;
+  color: #fff;
+  margin-left: 5px;
+  margin-left: 400px;
+  padding: 12px 24px;
+  margin-top: -10px;
+}
+.navbar .son2 {
+  border: none;
+  background: transparent;
+  color: #fff;
+  border-left: 2px solid #fff;
+  padding: 2px 24px;
+}
+.navbar .fa-phone {
+  margin-left: 5px;
+}
+.navbar .fa-telegram {
+  font-size: 30px;
+  color: #fff;
+  margin-left: 700px;
+  margin-top: 10px;
+}
+.navbar .fa-instagram {
+  font-size: 30px;
+  color: #fff;
+  margin-left: 12px;
+}
+
+.header {
+  width: 100%;
+  height: 90px;
+  background-color: gray;
+  opacity: 0.6;
+  align-items: center;
+}
+.header .rasm {
+  width: 80px;
+  height: 60px;
+  margin-top: 13px;
+  margin-left: 400px;
+  opacity: none;
+}
+.header .marj ul {
+  display: flex;
+  margin-top: -65px;
+  list-style: none;
+  margin-left: 900px;
+  position: sticky;
+  top: 0;
+}
+.header .marj {
+  position: sticky;
+  top: 0;
+}
+.header .marj li {
+  margin: 20px;
+  color: #fff;
+}
+.header .marj li a {
+  color: #fff;
+}
+.header .marj li a:hover {
+  transition: all 0.4s ease;
+  color: blue;
+  cursor: pointer;
+}
+
+.box {
+  width: 500px;
+  height: 70px;
+  background-color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 10px;
+  position: relative;
+  margin-left: 400px;
+  margin-top: 350px;
+}
+.box .son3 {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 40px;
+  position: absolute;
+  top: 10px;
+}
+.box .son4 {
+  padding: 12px 24px;
+  border-radius: 20px;
+  border: none;
+  background-color: blue;
+  color: #fff;
+  position: absolute;
+  top: 100px;
+}
+.box .son4:hover {
+  background-color: darkblue;
+  transition: all 0.4s ease;
+}
+.box .son4:active {
+  background-color: blue;
+  border: 1px solid #fff;
+}
+
+.turlar {
+  position: absolute;
+  top: 1100px;
+}
+.turlar .aziz1 {
+  font-size: 30px;
+  margin-left: 900px;
+  margin-top: 30px;
+}
+.turlar .gridlar {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 360px;
+}
+.turlar .gridlar .item1 {
+  width: 370px;
+  height: 275px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.turlar .gridlar .item2 {
+  width: 370px;
+  height: 275px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-left: 50px;
+}
+.turlar .gridlar .item3 {
+  width: 370px;
+  height: 275px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-left: 50px;
+}
+.turlar .gridlar .kartin1 {
+  object-fit: cover;
+  border-radius: 10px;
+}
+.turlar .gridlar .son7 {
+  font-size: 25px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.turlar .gridlar .son8 {
+  font-size: 15px;
+  margin-left: 20px;
+  color: #0000ff;
+}
+.turlar .gridlar span {
+  font-size: 20px;
+  color: #0000ff;
+}
+
+.our {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(239, 240, 255);
+  position: absolute;
+  top: 2000px;
+}
+.our .sinf1 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 50px;
+}
+.our .quti1 {
+  width: 292px;
+  height: 185px;
+  margin-top: 50px;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.our .quti1 .fa-user {
+  font-size: 60px;
+  color: #0000ff;
+  margin-left: 120px;
+  margin-top: 40px;
+}
+.our .quti1 .sinf2 {
+  font-size: 20px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.our .quti2 {
+  width: 292px;
+  height: 185px;
+  margin-top: 50px;
+  margin-left: 20px;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.our .quti2 .fa-face-smile {
+  font-size: 60px;
+  color: #0000ff;
+  margin-left: 120px;
+  margin-top: 40px;
+}
+.our .quti2 .sinf2 {
+  font-size: 20px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.our .quti3 {
+  width: 292px;
+  height: 185px;
+  margin-top: 50px;
+  margin-left: 20px;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.our .quti3 .fa-plane {
+  font-size: 60px;
+  color: #0000ff;
+  margin-left: 120px;
+  margin-top: 40px;
+}
+.our .quti3 .sinf2 {
+  font-size: 20px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.our .quti4 {
+  width: 292px;
+  height: 185px;
+  margin-top: 50px;
+  margin-left: 20px;
+  border-radius: 15px;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.our .quti4 .fa-building {
+  font-size: 60px;
+  color: #0000ff;
+  margin-left: 120px;
+  margin-top: 40px;
+}
+.our .quti4 .sinf2 {
+  font-size: 20px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.our .best {
+  display: flex;
+  margin-left: 330px;
+}
+.our .quti1:hover {
+  transition: all 0.5s ease;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.our .quti2:hover {
+  transition: all 0.5s ease;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.our .quti3:hover {
+  transition: all 0.5s ease;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.our .quti4:hover {
+  transition: all 0.5s ease;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.gojo {
+  position: absolute;
+  margin-top: 2000px;
+  display: flex;
+  margin-left: 380px;
+}
+.gojo .madara1 {
+  width: 370px;
+  height: 420px;
+}
+.gojo .madara1 .qorin1 {
+  object-fit: cover;
+}
+.gojo .madara1 .qorin2 {
+  margin-top: -65px;
+  margin-left: 30px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.gojo .madara2 {
+  width: 370px;
+  height: 420px;
+  margin-left: 20px;
+}
+.gojo .madara2 .qorin1 {
+  object-fit: cover;
+}
+.gojo .madara2 .qorin2 {
+  margin-top: -65px;
+  margin-left: 30px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.gojo .madara3 {
+  width: 370px;
+  height: 420px;
+  margin-left: 20px;
+}
+.gojo .madara3 .qorin1 {
+  object-fit: cover;
+}
+.gojo .madara3 .qorin2 {
+  margin-top: -65px;
+  margin-left: 30px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.gojo .madara4 {
+  top: -100px;
+  left: 480px;
+  position: absolute;
+}
+
+.foot2 {
+  position: absolute;
+  top: 3100px;
+  width: 100%;
+}
+.foot2 .prosta {
+  width: 100%;
+  margin-top: 40px;
+}
+.foot2 .foot1 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.oyoq {
+  width: 100%;
+  height: 500px;
+  background-color: #434a54;
+  position: absolute;
+  top: 3580px;
+  display: flex;
+}
+.oyoq .oxirgi-box1 {
+  width: 300px;
+  color: white;
+  margin-left: 400px;
+  margin-top: 100px;
+}
+.oyoq .oxirgi-box1 .last {
+  font-size: 25px;
+  font-weight: 700;
+}
+.oyoq .oxirgi-box2 {
+  width: 300px;
+  color: #fff;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.oyoq .oxirgi-box2 .last4 {
+  margin-top: 20px;
+}
+.oyoq .oxirgi-box2 .last5 {
+  margin-top: 20px;
+}
+.oyoq .oxirgi-box2 .last6 {
+  margin-top: 20px;
+}
+.oyoq .oxirgi-box2 .last8 {
+  margin-top: 20px;
+}/*# sourceMappingURL=style.css.map */
